@@ -28,5 +28,3 @@ For the week-by-week evaluation, we proceed in the same way, but take the intege
 The SQL statement is contained in the function series-check-values.
 
 The user can change created habits and also delete them completely. Date entries are checked and the user is informed if they are wrong.
-
-Translated with www.DeepL.com/Translator (free version)
