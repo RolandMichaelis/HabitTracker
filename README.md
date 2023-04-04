@@ -1,7 +1,7 @@
 # HabitTracker
 The program allows the user to record his habits in order to change them. For example, he can decide to do more sports on a regular basis. He can specify whether he wants to record daily or weekly habits. When he fulfills his task, he simply puts a check in a checkbox. The program is designed to be easy and logical to use.
 
-The program is created in Phyton 3 and standard functions and standard modules were used. For example, the GUI was programmed using the Tkinter module and the data was stored in SQLite. 
+The program is created in Phyton 3 and standard functions and standard modules were used. For example, the GUI was programmed using the Tkinter module and the data was stored in SQLite. For testing purposes, five habits were created with test data. 
 
 On an information page, the longest and shortest series of the user's confirmations is displayed. The calculation of these series is done directly on the database. For this purpose, a virtual table is created in which the row number and the difference between the done-at date and the start date (Julian number of days) are entered. If you then subtract the line number from this result, it will always remain the same until there is a gap. Then the result "jumps" to a higher value. 
 
